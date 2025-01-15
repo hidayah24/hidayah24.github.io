@@ -9,19 +9,16 @@ Welcome to my portfolio repository! This website showcases my projects, skills, 
 - **Contact**: Links to my LinkedIn, GitHub, and email.
 
 ## 📂 Repository Structure
-```
-/username.github.io
-    ├──\ index.html # Main HTML file for the homepage
-    ├──\ style.css # Custom styles for the website
-    ├── script.js # JavaScript for interactive functionality (if any)
-    ├── images/ # Folder for images used in the website
-    ├── projects/ # Folder containing individual project pages │
-    |   ├── project1.html │
-    |   ├── project2.html │
-    └── ...
-    ├── README.md # This file (repository documentation)
-    └── ...
-```
+
+| File/Folder         | Description                              |
+|---------------------|------------------------------------------|
+| `/index.html`       | Main HTML file for the homepage          |
+| `/style.css`        | Custom styles for the website            |
+| `/script.js`        | JavaScript file for interactivity        |
+| `/images/`          | Folder for images used in the website    |
+| `/projects/`        | Folder containing individual project pages |
+| `/README.md`        | Repository documentation file            |
+
 
 ## 🌟 Live Demo
 Check out the live site here: [Click here!!!](https://hidayah24.github.io)
