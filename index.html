@@ -6,9 +6,10 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" data-animate="fade-in-up">
         <div class="container">
           <div class="header-content">
             <h1>Welcome to My Portfolio</h1>
@@ -29,12 +30,12 @@
   </nav>
 
   <main>
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>I am a fresh graduate in Informatics with a strong passion for data analysis, visualization, and problem-solving. My goal is to turn data into actionable insights that drive decision-making.</p>
-      </div>
-    </section>
+    <section id="about" class="section" data-animate="fade-in">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I am a fresh graduate in Informatics with a strong passion for data analysis, visualization, and problem-solving. My goal is to turn data into actionable insights that drive decision-making.</p>
+  </div>
+</section>
 
     <section id="projects" class="section">
       <div class="container">
@@ -65,20 +66,30 @@
           <p>Feel free to reach out to me for collaboration or questions!</p>
           <div class="contact-grid">
             <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
               <h3>Email</h3>
               <p><a href="mailto:taufik.hidayah240920@gmail.com">taufik.hidayah240920@gmail.com</a></p>
             </div>
             <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
               <h3>LinkedIn</h3>
               <p><a href="https://linkedin.com/in/hidayah24">linkedin.com/in/hidayah24</a></p>
             </div>
             <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
               <h3>GitHub</h3>
               <p><a href="https://github.com/hidayah24">github.com/hidayah24</a></p>
             </div>
           </div>
         </div>
       </section>
+      
   </main>
 
   <footer class="footer">
@@ -87,5 +98,20 @@
     </div>
   </footer>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      });
+  
+      const elementsToAnimate = document.querySelectorAll("[data-animate]");
+      elementsToAnimate.forEach((el) => observer.observe(el));
+    });
+  </script>
+  
 </body>
 </html>
