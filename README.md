@@ -24,12 +24,12 @@ Welcome to my portfolio repository! This website showcases my projects, skills, 
 ```
 
 ## 🌟 Live Demo
-Check out the live site here: [https://username.github.io](https://username.github.io)
+Check out the live site here: [https://hidayah24.github.io](https://hidayah24.github.io)
 
 ## 📈 Projects
 Here are a few projects featured in this portfolio:
 
-1. **Data Visualization with Tableau**  
+1. **Data Analyst Salary in Indonesia**  
    - Description: Interactive dashboard showcasing sales performance.  
    - Link: [GitHub Repository](https://github.com/hidayah24/...)
 
