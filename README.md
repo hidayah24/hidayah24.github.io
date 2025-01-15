@@ -1,1 +1,56 @@
-# hidayah24.github.io
+# My Portfolio - Taufik Hidayah
+
+Welcome to my portfolio repository! This website showcases my projects, skills, and achievements as a [Data Analyst / Software Developer / Informatics Graduate]. It's live at: [https://hidayah24.github.io](https://hidayah24.github.io).
+
+## 🛠️ Features
+- **About Me**: A brief introduction about my background and interests.
+- **Projects**: A collection of my key projects with descriptions, links, and demo screenshots.
+- **Skills**: Highlights of my technical and analytical skills.
+- **Contact**: Links to my LinkedIn, GitHub, and email.
+
+## 📂 Repository Structure
+/username.github.io
+    ├── index.html # Main HTML file for the homepage
+    ├── style.css # Custom styles for the website
+    ├── script.js # JavaScript for interactive functionality (if any)
+    ├── images/ # Folder for images used in the website
+    ├── projects/ # Folder containing individual project pages │
+    ├── project1.html │
+    ├── project2.html │
+    └── ...
+    ├── README.md # This file (repository documentation)
+    └── ...
+
+
+## 🌟 Live Demo
+Check out the live site here: [https://username.github.io](https://username.github.io)
+
+## 📈 Projects
+Here are a few projects featured in this portfolio:
+
+1. **Data Visualization with Tableau**  
+   - Description: Interactive dashboard showcasing sales performance.  
+   - Link: [GitHub Repository](https://github.com/hidayah24/...)
+
+2. **...**  
+   - Description: ...  
+   - Link: [GitHub Repository](https://github.com/hidayah24/...)
+
+## 📬 Contact Me
+Feel free to reach out to me for collaboration, feedback, or just to say hi:
+- **LinkedIn**: [linkedin.com/in/hidayah24](https://linkedin.com/in/hidayah24)
+- **GitHub**: [github.com/hidayah24](https://github.com/hidayah24)
+- **Email**: taufik.hidayah240920@gmail.com
+
+---
+
+### 👨‍💻 About Me
+I am a [Data Analyst] passionate about solving real-world problems with data and technology. My areas of interest include:
+- Data Analysis & Visualization
+- Machine Learning
+- Automation with Python
+- Statistic Model
+
+---
+
+Thank you for visiting my portfolio repository! If you like what you see, don't forget to ⭐ this repo. 😊
