@@ -14,9 +14,7 @@ Welcome to my portfolio repository! This website showcases my projects, skills, 
 |---------------------|------------------------------------------|
 | `/index.html`       | Main HTML file for the homepage          |
 | `/style.css`        | Custom styles for the website            |
-| `/script.js`        | JavaScript file for interactivity        |
 | `/images/`          | Folder for images used in the website    |
-| `/projects/`        | Folder containing individual project pages |
 | `/README.md`        | Repository documentation file            |
 
 
@@ -38,7 +36,7 @@ Here are a few projects featured in this portfolio:
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
 - **LinkedIn**: [linkedin.com/in/hidayah24](https://linkedin.com/in/hidayah24)
 - **GitHub**: [github.com/hidayah24](https://github.com/hidayah24)
-- **Email**: taufik.hidayah240920@gmail.com
+- **Email**: contact@taufikhidayah.my.id
 
 ---
 
