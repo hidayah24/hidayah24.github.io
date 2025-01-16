@@ -60,18 +60,20 @@ body {
 
 /* Navbar Styles */
 .navbar {
-  background: #333; /* Warna latar */
-  position: sticky; /* Membuat elemen tetap di posisi tertentu */
-  top: 0; /* Jarak dari atas halaman */
-  z-index: 1000; /* Pastikan elemen berada di atas elemen lainnya */
+  background: #333; /* Warna latar tetap */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 
 .navbar ul {
-  list-style: none;
   display: flex;
   justify-content: center;
-  padding: 10px 0;
+  align-items: center;
   margin: 0;
+  padding: 10px 0;
+  list-style: none;
 }
 
 .navbar ul li {
@@ -82,7 +84,6 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s ease;
 }
 
 .navbar ul li a:hover {

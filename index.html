@@ -123,35 +123,34 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      });
-  
-      const elementsToAnimate = document.querySelectorAll("[data-animate]");
-      elementsToAnimate.forEach((el) => observer.observe(el));
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
     });
-    document.addEventListener("scroll", function () {
-  const navbar = document.querySelector(".navbar");
-  let lastScroll = 0;
-
-  window.addEventListener("scroll", () => {
-    let currentScroll = window.pageYOffset;
-
-    if (currentScroll > lastScroll) {
-      // Saat scroll ke bawah
-      navbar.style.top = "-60px"; // Sesuaikan tinggi navbar
-    } else {
-      // Saat scroll ke atas
-      navbar.style.top = "0";
-    }
-
-    lastScroll = currentScroll;
   });
+
+  const elementsToAnimate = document.querySelectorAll("[data-animate]");
+  elementsToAnimate.forEach((el) => observer.observe(el));
 });
+
+let lastScroll = 0;
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  const currentScroll = window.pageYOffset;
+
+  if (currentScroll > lastScroll) {
+    // Saat scroll ke bawah, sembunyikan navbar
+    navbar.style.top = "-60px"; // Pastikan tingginya cukup
+  } else {
+    // Saat scroll ke atas, tampilkan navbar
+    navbar.style.top = "0";
+  }
+
+  lastScroll = currentScroll;
+});
+
   </script>
   
 </body>
