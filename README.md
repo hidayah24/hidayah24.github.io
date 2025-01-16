@@ -18,8 +18,8 @@ Welcome to my portfolio repository! This website showcases my projects, skills, 
 | `/README.md`        | Repository documentation file            |
 
 
-## 🌟 Live Demo
-Check out the live site here: [Click here!!!](https://hidayah24.github.io)
+## 🌟 My Portfolio
+Check out the site here: [Click here!!!](https://www.taufikhidayah.my.id)
 
 ## 📈 Projects
 Here are a few projects featured in this portfolio:
