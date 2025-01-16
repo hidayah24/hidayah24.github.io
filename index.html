@@ -13,7 +13,7 @@
         <div class="container">
           <div class="header-content">
             <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm <strong>Taufik</strong>. A passionate Data Analyst and Data Science.</p>
+            <p>Hi, I'm <strong>Taufik Hidayah</strong>. A passionate Data Analyst and Data Science.</p>
             <a href="#about" class="header-button">Learn More About Me</a>
           </div>
         </div>
@@ -134,6 +134,24 @@
       const elementsToAnimate = document.querySelectorAll("[data-animate]");
       elementsToAnimate.forEach((el) => observer.observe(el));
     });
+    document.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+  let lastScroll = 0;
+
+  window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll) {
+      // Saat scroll ke bawah
+      navbar.style.top = "-60px"; // Sesuaikan tinggi navbar
+    } else {
+      // Saat scroll ke atas
+      navbar.style.top = "0";
+    }
+
+    lastScroll = currentScroll;
+  });
+});
   </script>
   
 </body>
