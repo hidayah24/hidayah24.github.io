@@ -24,14 +24,13 @@ Check out the site here: [Click here!!!](https://www.taufikhidayah.my.id)
 ## 📈 Projects
 Here are a few projects featured in this portfolio:
 
-1. **Data Analyst Salary in Indonesia**  
-   - Description: Interactive dashboard showcasing sales performance.  
+1. **Customer Spending Behavior Analysis**  
+   - Description: How does customer spending behavior differ in each category, and which categories are most dominant in terms of spending?  
    - Link: [GitHub Repository](https://github.com/hidayah24/...)
 
 2. **...**  
-   - Description: ...  
-   - Link: [GitHub Repository](https://github.com/hidayah24/...)
-
+   - Description: ...
+   - Link: ...
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
 - **LinkedIn**: [linkedin.com/in/hidayah24](https://linkedin.com/in/hidayah24)
