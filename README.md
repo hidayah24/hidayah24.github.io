@@ -26,7 +26,7 @@ Here are a few projects featured in this portfolio:
 
 1. **Customer Spending Behavior Analysis**  
    - Description: How does customer spending behavior differ in each category, and which categories are most dominant in terms of spending?  
-   - Link: [GitHub Repository](https://github.com/hidayah24/...)
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-1-Customer-Spending-Behavior-Analysis)
 
 2. **...**  
    - Description: ...
