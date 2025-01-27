@@ -240,7 +240,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 3px solid #007BFF;
+  border: 3px solid #d3d9df5b;
   transition: transform 0.3s ease;
 }
 
