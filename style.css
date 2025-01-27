@@ -289,16 +289,42 @@ body {
   transition: top 0.3s ease;
 }
 
+/* Memastikan gambar berada di tengah */
 .profile-container {
-  text-align: center; 
+  display: flex;
+  justify-content: center; /* Mengatur horizontal di tengah */
+  align-items: center; /* Mengatur vertical di tengah */
   margin-bottom: 20px;
 }
 
+/* Mengatur gambar profil */
 .profile-picture {
-  width: 150px; 
+  width: 150px; /* Ukuran default untuk perangkat kecil */
   height: 150px;
-  border-radius: 50%; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  object-fit: cover; 
-  border: 3px solid #007BFF; 
+  border-radius: 50%; /* Membuat gambar berbentuk bulat */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+  border: 3px solid #007BFF; /* Menambahkan border */
+  transition: transform 0.3s ease; /* Animasi hover */
 }
+
+/* Efek hover untuk memperbesar gambar */
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+
+/* Membuat gambar responsif */
+@media (min-width: 768px) {
+  .profile-picture {
+    width: 200px; /* Ukuran gambar untuk perangkat menengah */
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-picture {
+    width: 250px; /* Ukuran gambar untuk perangkat besar */
+    height: 250px;
+  }
+}
+
