@@ -226,104 +226,38 @@ body {
   transform: translateY(0);
 }
 
-.project-card {
-  overflow: hidden;
-  position: relative;
-  transition: all 0.3s ease;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-logo {
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover .project-logo {
-  transform: rotate(10deg) scale(1.1);
-}
-
-/* Footer Styles */
-.footer {
-  background-color: #333; /* Warna latar gelap */
-  color: #fff; /* Teks putih */
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-  position: relative;
-}
-
-.footer p {
-  margin: 0;
-  font-weight: 400;
-}
-
-.footer p strong {
-  font-weight: 600;
-}
-
-.footer-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin: 0 15px;
-}
-
-.footer-links li a {
-  color: #00C6FF; 
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.footer-links li a:hover {
-  color: #007BFF; 
-
-.navbar {
-  transition: top 0.3s ease;
-}
-
-/* Memastikan gambar berada di tengah */
+/* Profile Picture Styles */
 .profile-container {
   display: flex;
-  justify-content: center; /* Mengatur horizontal di tengah */
-  align-items: center; /* Mengatur vertical di tengah */
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
-/* Mengatur gambar profil */
 .profile-picture {
-  width: 150px; /* Ukuran default untuk perangkat kecil */
+  width: 150px;
   height: 150px;
-  border-radius: 50%; /* Membuat gambar berbentuk bulat */
-  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
-  border: 3px solid #007BFF; /* Menambahkan border */
-  transition: transform 0.3s ease; /* Animasi hover */
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #007BFF;
+  transition: transform 0.3s ease;
 }
 
-/* Efek hover untuk memperbesar gambar */
 .profile-picture:hover {
   transform: scale(1.1);
 }
 
-/* Membuat gambar responsif */
 @media (min-width: 768px) {
   .profile-picture {
-    width: 200px; /* Ukuran gambar untuk perangkat menengah */
+    width: 200px;
     height: 200px;
   }
 }
 
 @media (min-width: 1200px) {
   .profile-picture {
-    width: 250px; /* Ukuran gambar untuk perangkat besar */
+    width: 250px;
     height: 250px;
   }
 }
