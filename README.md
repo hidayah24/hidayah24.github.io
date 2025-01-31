@@ -28,8 +28,8 @@ Here are a few projects featured in this portfolio:
    - Description: How does customer spending behavior differ in each category, and which categories are most dominant in terms of spending?  
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-1-Customer-Spending-Behavior-Analysis)
 
-2. **...**  
-   - Description: ...
+2. **Credit Risk Analysis and Optimization of Lending Decisions**  
+   - Description: "How to understand the patterns and characteristics of high-risk loans and optimize the credit assessment process to reduce financial losses."
    - Link: ...
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
