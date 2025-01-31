@@ -29,8 +29,12 @@ Here are a few projects featured in this portfolio:
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-1-Customer-Spending-Behavior-Analysis)
 
 2. **Credit Risk Analysis and Optimization of Lending Decisions**  
-   - Description: "How to understand the patterns and characteristics of high-risk loans and optimize the credit assessment process to reduce financial losses."
+   - Description: How to understand the patterns and characteristics of high-risk loans and optimize the credit assessment process to reduce financial losses.
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-2-Credit-Risk-Analysis-and-Optimization-of-Lending-Decisions)
+3. **...**  
+   - Description: ...
    - Link: ...
+   
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
 - **LinkedIn**: [linkedin.com/in/hidayah24](https://linkedin.com/in/hidayah24)
