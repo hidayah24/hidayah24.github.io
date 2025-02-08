@@ -6,7 +6,7 @@ async function redirectShortLink() {
 
     try {
         // Ambil data dari JSON
-        const response = await fetch('/shortlinks.json');
+        const response = await fetch('./shortlinks.json');
         const shortlinks = await response.json();
 
         // Cek apakah shortlink ada di database JSON
