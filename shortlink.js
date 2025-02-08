@@ -1,32 +1,29 @@
-async function redirectShortLink() {
-    console.log("Script dimulai..."); // Cek apakah script dijalankan
+window.onload = async function () {
+    console.log("Script berjalan...");
 
+    // Ambil path setelah domain
     let shortCode = window.location.pathname.substring(1);
-    console.log("Shortlink yang diminta:", shortCode); // Cek apakah path terdeteksi
+    console.log("Shortlink yang diminta:", shortCode);
 
     if (!shortCode) {
-        console.log("Tidak ada shortlink yang diminta. Keluar.");
+        console.log("Tidak ada shortlink, keluar.");
         return;
     }
 
     try {
-        console.log("Memulai fetch ke JSON...");
-        const response = await fetch('./shortlinks.json');
-        console.log("Fetch berhasil, parsing JSON...");
-
+        console.log("Mengambil data shortlink...");
+        const response = await fetch('/data/shortlinks.json');
         const shortlinks = await response.json();
-        console.log("Data JSON yang didapat:", shortlinks);
+        console.log("Data JSON:", shortlinks);
 
         if (shortlinks[shortCode]) {
             console.log(`Redirecting ke: ${shortlinks[shortCode]}`);
-            window.location.href = shortlinks[shortCode]; // Redirect
+            window.location.href = shortlinks[shortCode];
         } else {
             console.log("Shortlink tidak ditemukan.");
             document.body.innerHTML = "<h2>Shortlink tidak ditemukan</h2>";
         }
     } catch (error) {
-        console.error("Error saat fetch JSON:", error);
+        console.error("Gagal mengambil shortlink:", error);
     }
-}
-
-redirectShortLink();
+};
