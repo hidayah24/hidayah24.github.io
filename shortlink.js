@@ -1,29 +1,33 @@
 window.onload = async function () {
-    console.log("Script berjalan...");
+    document.body.innerHTML += "<p>Script berjalan...</p>";
 
-    // Ambil path setelah domain
     let shortCode = window.location.pathname.substring(1);
-    console.log("Shortlink yang diminta:", shortCode);
+    document.body.innerHTML += `<p>Shortlink diminta: ${shortCode}</p>`;
 
     if (!shortCode) {
-        console.log("Tidak ada shortlink, keluar.");
+        document.body.innerHTML += "<p>Tidak ada shortlink yang diminta. Keluar.</p>";
         return;
     }
 
     try {
-        console.log("Mengambil data shortlink...");
+        document.body.innerHTML += "<p>Mengambil data shortlink...</p>";
+
         const response = await fetch('./shortlinks.json');
         const shortlinks = await response.json();
-        console.log("Data JSON:", shortlinks);
+
+        document.body.innerHTML += `<p>Data JSON: ${JSON.stringify(shortlinks)}</p>`;
 
         if (shortlinks[shortCode]) {
-            console.log(`Redirecting ke: ${shortlinks[shortCode]}`);
-            window.location.href = shortlinks[shortCode];
+            document.body.innerHTML += `<p>Redirecting ke: ${shortlinks[shortCode]}</p>`;
+
+            // Tambahkan delay agar redirect tidak diblokir Chrome Mobile
+            setTimeout(() => {
+                window.location.href = shortlinks[shortCode];
+            }, 1000);
         } else {
-            console.log("Shortlink tidak ditemukan.");
-            document.body.innerHTML = "<h2>Shortlink tidak ditemukan</h2>";
+            document.body.innerHTML += "<p>Shortlink tidak ditemukan.</p>";
         }
     } catch (error) {
-        console.error("Gagal mengambil shortlink:", error);
+        document.body.innerHTML += `<p>Error: ${error}</p>`;
     }
 };
