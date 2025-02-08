@@ -13,6 +13,9 @@ Welcome to my portfolio repository! This website showcases my projects, skills, 
 | File/Folder         | Description                              |
 |---------------------|------------------------------------------|
 | `/index.html`       | Main HTML file for the homepage          |
+| `/404.html`         | Waiting page for shortlink               |
+| `/shortlink.js`     | Javascript code to create shortlinks     |
+| `/shortlinks.json`  | List of shortlinks                       |
 | `/style.css`        | Custom styles for the website            |
 | `/images/`          | Folder for images used in the website    |
 | `/README.md`        | Repository documentation file            |
