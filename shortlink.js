@@ -12,7 +12,7 @@ window.onload = async function () {
 
     try {
         console.log("Mengambil data shortlink...");
-        const response = await fetch('/data/shortlinks.json');
+        const response = await fetch('./shortlinks.json');
         const shortlinks = await response.json();
         console.log("Data JSON:", shortlinks);
 
