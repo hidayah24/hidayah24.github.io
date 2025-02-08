@@ -1,5 +1,5 @@
 async function redirectShortLink() {
-    // Ambil path dari URL setelah domain (misalnya `yt` dari `/yt`)
+    // Ambil path dari URL setelah domain (misalnya `yt` dari `yourdomain.com/yt`)
     let shortCode = window.location.pathname.substring(1);
 
     if (!shortCode) return; // Jika tidak ada shortlink, keluar
@@ -20,5 +20,5 @@ async function redirectShortLink() {
     }
 }
 
-// Panggil fungsi saat halaman dimuat
+// Jalankan redirect saat halaman dimuat
 redirectShortLink();
