@@ -334,11 +334,23 @@ body {
 
 .project-details div {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .project-details i {
   margin-right: 8px;
   color: #007BFF;
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.project-details span {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Project Button Container */
