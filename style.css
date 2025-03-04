@@ -324,3 +324,43 @@ body {
 .project-description::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+/* New Parts */
+/* Project Details Styles */
+.project-details {
+  text-align: left;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.project-details div {
+  margin-bottom: 10px;
+}
+
+.project-details i {
+  margin-right: 8px;
+  color: #007BFF;
+}
+
+/* Project Button Container */
+.project-button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Jarak antara tombol */
+  margin-top: 15px;
+}
+
+.project-button-container .project-link {
+  flex: 1; /* Membagi ruang secara merata */
+  text-align: center;
+}
+
+/* Disabled Button Styles */
+.project-link.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.project-link.disabled:hover {
+  background-color: #ccc;
+}
