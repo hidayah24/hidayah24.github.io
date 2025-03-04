@@ -297,3 +297,30 @@ body {
     height: 250px;
   }
 }
+
+.project-description {
+  max-height: 100px; /* Atur tinggi maksimum sesuai kebutuhan */
+  overflow-y: auto; /* Membuat konten dapat di-scroll jika melebihi max-height */
+  margin-bottom: 15px;
+  color: #666;
+  padding-right: 10px; /* Memberikan ruang untuk scrollbar */
+}
+
+/* Optional: Menyesuaikan tampilan scrollbar */
+.project-description::-webkit-scrollbar {
+  width: 8px;
+}
+
+.project-description::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.project-description::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.project-description::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
