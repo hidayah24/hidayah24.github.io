@@ -350,15 +350,54 @@ body {
 }
 
 .project-button-container .project-link {
-  flex: 1; /* Membagi ruang secara merata */
+  flex: 1;
   text-align: center;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Primary Buttons */
+.project-button-container .project-link {
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-button-container .project-link:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Disabled Button Styles */
 .project-link.disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+  background: linear-gradient(135deg, #FFA500, #FF6347);
+  color: #fff;
+  cursor: default;
   pointer-events: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-link.disabled::after {
+  content: '\f110';
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: 10px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .project-link.disabled:hover {
