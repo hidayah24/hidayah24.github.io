@@ -283,6 +283,11 @@ body {
 .profile-picture:hover {
   transform: scale(1.1);
 }
+@media (min-width: 440px) {
+  .project-button-container .project-link {
+    font-size: 0.6rem;
+  }
+}
 
 @media (min-width: 768px) {
   .profile-picture {
@@ -365,7 +370,7 @@ body {
   flex: 1;
   text-align: center;
   padding: 12px 20px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: 25px;
