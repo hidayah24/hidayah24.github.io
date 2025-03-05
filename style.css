@@ -357,7 +357,7 @@ body {
   margin-right: 8px;
   color: #007BFF;
   flex-shrink: 0;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   color: #007BFF;
 }
 
@@ -378,7 +378,7 @@ body {
   flex: 1;
   text-align: center;
   padding: 12px 20px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: 25px;
