@@ -177,6 +177,7 @@ body {
   background: #f1f1f1;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-self: center;
 }
 
 .project-card h3 {
@@ -371,7 +372,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 10px; /* Jarak antara tombol */
-  margin-top: auto; /* CSS Baru */
+  margin-top: auto;
 }
 
 .project-button-container .project-link {
