@@ -156,6 +156,12 @@ body {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+  /* CSS Baru */
+  min-height: 400px; /* Sesuaikan tinggi minimal sesuai kebutuhan */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Membuat konten di dalam kartu sejajar */
+  min-height: 400px;
 }
 
 .project-card:hover {
@@ -309,6 +315,8 @@ body {
   margin-bottom: 15px;
   color: #666;
   padding-right: 10px; /* Memberikan ruang untuk scrollbar */
+  /* CSS Baru */
+  flex: 1; /* Membuat deskripsi mengisi ruang yang tersedia */
 }
 
 /* Optional: Menyesuaikan tampilan scrollbar */
@@ -363,7 +371,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 10px; /* Jarak antara tombol */
-  margin-top: 15px;
+  margin-top: auto; /* CSS Baru */
 }
 
 .project-button-container .project-link {
