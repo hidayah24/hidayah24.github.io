@@ -35,9 +35,9 @@ Here are a few projects featured in this portfolio:
    - Description: How to understand the patterns and characteristics of high-risk loans and optimize the credit assessment process to reduce financial losses.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-2-Credit-Risk-Analysis-and-Optimization-of-Lending-Decisions)
 
-3. **Taxi Fare Compliance Audit: Ensuring Fare Accuracy**  
-   - Description: This project validates taxi fare charges against company pricing policies to detect discrepancies and anomalies. Using trip data, it calculates theoretical fares (base fare + distance/time rates) and compares them to actual fare_amount values.
-   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-3-Taxi-Fare-Compliance-Audit:-Ensuring-Fare-Accuracy)
+3. **Flight Price of Bangladesh Analysis**  
+   - Description: How to increase profitability by optimizing ticket pricing strategies.
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-3-Flight-Price-Dataset-of-Bangladesh-Analysis)
    
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
