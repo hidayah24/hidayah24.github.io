@@ -38,6 +38,10 @@ Here are a few projects featured in this portfolio:
 3. **Flight Price of Bangladesh Analysis**  
    - Description: How to increase profitability by optimizing ticket pricing strategies.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-3-Flight-Price-Dataset-of-Bangladesh-Analysis)
+
+4. **E-Com Marketplace Revenue Growth Analysis**  
+   - Description: Fecom Inc. revenue growth slowed down in the last 6 months, even though the number of new customers continues to increase. How to understand why this is happening and what we can do to restore growth momentum.
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-E_Com-Marketplace-Revenue Growth-Analysis)
    
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:

@@ -146,6 +146,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
+  grid-auto-flow: row; /* New */
 }
 
 .project-card {
@@ -156,12 +157,11 @@ body {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  /* CSS Baru */
-  min-height: 400px; /* Sesuaikan tinggi minimal sesuai kebutuhan */
+  min-height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Membuat konten di dalam kartu sejajar */
-  min-height: 400px;
+  justify-content: space-between;
+  /* min-height: 400px;  (New) */
 }
 
 .project-card:hover {
@@ -371,7 +371,7 @@ body {
 .project-button-container {
   display: flex;
   justify-content: space-between;
-  gap: 10px; /* Jarak antara tombol */
+  gap: 10px;
   margin-top: auto;
 }
 
