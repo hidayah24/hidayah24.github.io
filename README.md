@@ -39,9 +39,9 @@ Here are a few projects featured in this portfolio:
    - Description: How to increase profitability by optimizing ticket pricing strategies.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-3-Flight-Price-Dataset-of-Bangladesh-Analysis)
 
-4. **Market Prediction**  
+4. **Supply Chain Analysis**  
    - Description: ....
-   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-Hull_Tactical-Market_Prediction)
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-Supply-Chain-Analysis)
    
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
