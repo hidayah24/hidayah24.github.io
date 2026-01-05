@@ -40,8 +40,12 @@ Here are a few projects featured in this portfolio:
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-3-Flight-Price-Dataset-of-Bangladesh-Analysis)
 
 4. **Supply Chain Analysis**  
-   - Description: ....
+   - Description: Analyze data in depth and provide concrete strategies to increase revenue in the coming quarter.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-Supply-Chain-Analysis)
+
+5. **Superstore Campaign Optimizer**
+   - Description: ...
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-5-Superstore-Campaign-Optimizer)
    
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
