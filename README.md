@@ -43,9 +43,9 @@ Here are a few projects featured in this portfolio:
    - Description: Analyze data in depth and provide concrete strategies to increase revenue in the coming quarter.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-Supply-Chain-Analysis)
 
-5. **Superstore Campaign Optimizer**
+5. **Sales Performance Analysis**
    - Description: ...
-   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-5-Superstore-Campaign-Optimizer)
+   - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-5-AdventureWorks-Sales-Performance-Analysis)
    
 ## 📬 Contact Me
 Feel free to reach out to me for collaboration, feedback, or just to say hi:
