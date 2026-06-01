@@ -44,7 +44,7 @@ Here are a few projects featured in this portfolio:
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-4-Supply-Chain-Analysis)
 
 5. **Sales Performance Analysis**
-   - Description: ...
+   - Description: As a Data Analyst at AdventureWorks Corp., I addressed a critical business challenge: **identifying the root cause of a significant profit decline in 2022 despite increased sales volume**, and providing actionable recommendations for recovery.
    - Link: [GitHub Repository](https://github.com/hidayah24/data-analyst-portfolio/tree/main/Project-5-AdventureWorks-Sales-Performance-Analysis)
    
 ## 📬 Contact Me
